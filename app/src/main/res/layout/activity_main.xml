@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="Calculadora básica"
+        android:paddingTop="12px"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100px" />
+
+    <TextView
+        android:id="@+id/answer_section"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:hint="Respuesta..."
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="?attr/colorPrimaryVariant"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/numero_uno"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:hint="Escribe un número"
+        android:inputType="number"
+        android:text=""
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/numero_dos"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:ems="10"
+        android:hint="Escribe un número..."
+        android:inputType="number"
+        android:text=""
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_suma"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:text="Sumar" />
+
+    <Button
+        android:id="@+id/btn_resta"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:text="Restar" />
+
+    <Button
+        android:id="@+id/btn_multiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Multiplicar" />
+
+    <Button
+        android:id="@+id/btn_dividir"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:text="Dividir" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:text="JEAM" />
+</LinearLayout>
